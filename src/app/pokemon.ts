@@ -4,5 +4,5 @@ export interface Pokemon {
   height : number;
   weight : number;
   img : string;
-  type: string;
+  base_experience: number;
 }

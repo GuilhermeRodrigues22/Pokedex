@@ -1,18 +1,17 @@
+<div class="row text-center position-absolute top-50 start-50 translate-middle text-center text-dark p-3">
 
-  <div class="row text-center position-absolute top-50 start-50 translate-middle text-center text-dark p-3">
+  <div class="col bg-body-tertiary">
 
-    <div class="col bg-body-tertiary" >
-
-      <img [src]="pokemon.img" width="475px">
-    </div>
-    <div class="col">
-      <ul class="list-group" style="margin-top: 150px;">
-        <li class="list-group-item">ID: {{pokemon.id}}</li>
-        <li class="list-group-item">Nome: {{pokemon.name | titlecase}}</li>
-        <li class="list-group-item">Altura: {{pokemon.height}}</li>
-        <li class="list-group-item">Peso: {{pokemon.weight}}</li>
-        <li class="list-group-item">Tipo: {{pokemon.type}}</li>
-      </ul>
+    <img [src]="pokemon.img" width="475px">
+  </div>
+  <div class="col">
+    <ul class="list-group" style="margin-top: 150px;">
+      <li class="list-group-item">ID: {{pokemon.id}}</li>
+      <li class="list-group-item">Nome: {{pokemon.name | titlecase}}</li>
+      <li class="list-group-item">Altura: {{pokemon.height}}</li>
+      <li class="list-group-item">Peso: {{pokemon.weight}}</li>
+      <li class="list-group-item">Experiência Base: {{pokemon.base_experience}}</li>
+    </ul>
 
 
     <div class="buttons">
@@ -26,4 +25,4 @@
       <br><br>
     </div>
   </div>
-  </div>
+</div>
