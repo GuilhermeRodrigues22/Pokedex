@@ -55,4 +55,9 @@ export class PokedexComponent {
   getPokeId(): number {
     return this.pokemon.id;
   }
+
+  FixName() {
+    return this.pokemon.name.split("-");
+  }
+
 }
